@@ -1,0 +1,29 @@
+let carrito = ["Pizza", "Gaseosa", "Postre", "Helado"];
+
+console.log(carrito);
+
+let carrito2 = [3, "Gaseosa", "Postre"];
+
+console.log(carrito2);
+
+console.log(carrito[0]);   
+
+console.log(carrito[5]);   
+
+let usuario = ["Pedrito", "Ana"];
+
+let carrito = ["Pizza", "Gaseosa"];
+
+carrito.push("Postre");      // agrega al final
+
+console.log(carrito);        // [ 'Pizza', 'Gaseosa', 'Postre' ]
+
+carrito.pop();               // elimina el último
+
+console.log(carrito);        // [ 'Pizza', 'Gaseosa' ]
+
+carrito[0] = "Hamburguesa";  // cambia el de la posición 0
+
+console.log(carrito);        // [ 'Hamburguesa', 'Gaseosa' ]
+
+console.log(carrito.length);
